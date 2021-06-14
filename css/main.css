@@ -244,3 +244,12 @@ button:hover
         display: block;
     }
 }
+@media only screen and (orientation:portrait)
+{
+    .container
+    {
+        position:absolute;
+        height: auto;
+
+    }
+}
