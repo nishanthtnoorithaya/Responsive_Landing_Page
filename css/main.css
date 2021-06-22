@@ -141,6 +141,23 @@ button:hover
     color: honeydew;
     box-shadow: 0px 0px 2px 5px tan;
 }
+
+ [data-tooltip]
+{
+    position: relative;
+   
+}
+[data-tooltip]:hover::after
+{
+    position: absolute;
+    content: attr(data-tooltip);
+    color: palegreen;
+    font-size: 13px;
+    top: -30px;
+    left: 0;
+    right: 0;
+}
+
 .copyright
 {
     position: relative;
