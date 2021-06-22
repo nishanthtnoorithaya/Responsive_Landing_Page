@@ -153,10 +153,15 @@ button:hover
     color:darkkhaki;
     font-weight: bold;
 }
-.link,.link:hover
+.link
 {
     color:burlywood;
     font-weight: bold;
+}
+.link:hover
+{
+    font-weight: bold;
+    color: palegoldenrod;
 }
 
 /* Side Nav */
