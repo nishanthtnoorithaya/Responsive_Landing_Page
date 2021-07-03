@@ -161,7 +161,7 @@ button:hover
 .copyright
 {
     position: relative;
-    margin-top: 75px;
+    margin-top: 50px;
     padding: 10px;
 }
 .social
@@ -225,6 +225,7 @@ button:hover
 .sidenav .mobile:hover
 {
     box-shadow: 0px 1px 5px 1px black;
+    
 }
 
 @media only screen and (max-width:760px)
