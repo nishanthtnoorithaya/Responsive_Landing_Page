@@ -196,7 +196,7 @@ button:hover
 .sidenav
 {
     position:absolute;
-    height: 11vh;
+    height: auto;
     width: auto;
     background-color: grey;
     border: 2px solid tan;
