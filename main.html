@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/main.css"/>  
+    <script src="js/index.js"></script>
+    <link rel="icon" type="image/x-icon" href="images/homepage.ico">
+    <title>Best Landing Page</title>
+</head>
+<body>
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 py-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Welcome</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarText">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active mx-lg-3 mx-lg-3 px-lg-3 py-2" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-3 mx-lg-3 px-lg-3" href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link mx-lg-3 mx-lg-3 px-lg-3" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </nav>
+        <div class="main text-center">
+            <h1>Best Landing page templates for you... !!!</h1>
+            <div class="my-4">
+                <input id="input" class="mx-auto px-md-3 px-3 py-1 mt-2" onblur="emails()" type="text" placeholder="Enter your Email">
+            <label id="emaillabel" class="emaillabel my-2"></label>
+            </div>
+            <button id="button" class="mx-auto my-1 px-2 py-2 mt-2" onclick="submit()" type="button">Subscribe Now</button>
+        </div>
+         <div class="footer">
+            <div class="mx-auto text-center">
+                <a class="icons" data-tooltip="facebook" href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
+                <a class="icons" data-tooltip="instagram" href="https://www.instagram.com/"><i class="fa fa-instagram"></i></a>
+                <a class="icons" data-tooltip="linkedin" href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+                <a class="icons" data-tooltip="email" href="http://gmail.com/"><i class="fa fa-envelope"></i></a>
+            </div>
+        </div>
+        <div class="copyright mx-auto text-center">
+           <span class="social"><i class="fa fa-copyright"></i><span id="copyright">
+            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        </span> Copyright | Powered by: <a class="link" href="">Nishu Creations</a> </i></span>
+        </div>
+    </div>
+</body>
+</html>

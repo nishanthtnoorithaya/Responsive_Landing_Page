@@ -28,7 +28,7 @@ function submit(){
     }
     else {
         document.getElementById('emaillabel').innerText='Enter the Email Address';
-        document.getElementById('emaillabel').style.cssText="color:orange;font-weight: bold";
+        // document.getElementById('emaillabel').style.cssText="color:orange;font-weight: bold";
         return true;
     }
 }
