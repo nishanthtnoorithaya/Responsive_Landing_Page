@@ -21,16 +21,16 @@
             </div>
             <div class="pt-4 ml-auto">
                <ul class="d-flex text-white px-md-3 px-3">
-                   <li class="nav  mx-md-3 mx-3 px-3 py-2">Home</li>
-                   <li class="nav  mx-md-3 mx-3 px-3 py-2">Portfolio</li>
-                   <li class="nav  mx-md-3 mx-3 px-3 py-2">Contact</li>
+                   <li class="nav mx-md-3 mx-3 px-3 py-2">Home</li>
+                   <li class="nav mx-md-3 mx-3 px-3 py-2">Portfolio</li>
+                   <li class="nav mx-md-3 mx-3 px-3 py-2">Contact</li>
                </ul> 
                <span class=""><a class="hamburger px-2 py-1" href="javascript:void(0);" onclick="opennav()"><i class="fa fa-bars"></i></a></span>
-            <ul id="Sidenav" class="active sidenav flex text-white  px-md-3 px-3" type="none">
-                <li class="mobile px-3 py-1">Home</li>
-                <li class="mobile px-3 py-1">Portfolio</li>
-                <li class="mobile px-3 py-1">Contact</li>
-            </ul>
+                <ul id="Sidenav" class="active sidenav flex text-white  px-md-3 px-3" type="none">
+                    <li class="mobile px-3 py-1">Home</li>
+                    <li class="mobile px-3 py-1">Portfolio</li>
+                    <li class="mobile px-3 py-1">Contact</li>
+                </ul>
             </div>
         </div> 
         <div class="main text-center">
@@ -48,7 +48,9 @@
             </div>
         </div>
         <div class="copyright mx-auto text-center">
-           <span class="social"><i class="fa fa-copyright">2021 Copyright | Powered by: <a class="link"href="">Nishu Creations</a> </i></span>
+           <span class="social"><i class="fa fa-copyright"></i><span id="copyright">
+            <script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script>
+        </span> Copyright | Powered by: <a class="link"href="">Nishu Creations</a> </i></span>
         </div>
     </div>
 </body>
